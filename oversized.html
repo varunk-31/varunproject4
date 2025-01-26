@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>oversized</title>
+  <link rel="stylesheet" href="men.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+header{
+    position: sticky;
+    top: 0%;
+}
+#nav1{
+    text-align: right;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+#login{
+    margin-right: 30px;
+   padding-bottom: 20px;
+   
+}
+#nav1{
+    height: 30px;
+    /* border: 1px solid black; */
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #EEEEEE;
+   
+}
+#nav2{
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo_image{
+    height: 80px;
+    width: 150px;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#main{
+height: 1000px;
+
+}
+ 
+
+nav li{
+    display: inline;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+   
+}
+
+#search input{
+    border: none;
+}
+.search_icon{
+    display: flex;
+    padding-right: 7px;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid black;
+    width: 20px;
+}
+
+
+#data{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.copyright{
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+    margin-top:10px ;
+    height: 40px;
+    font-size: 1.2rem;
+   
+     text-align: center;
+     background-color: black;
+     color: white;
+ 
+ }
+
+
+
+
+</style>
+    
+</head>
+
+<body>
+  <header>
+    <nav id="nav1">
+      <div class="signup">
+        <a id="login" href="signup.html"> LOGIN/SIGNUP </a>
+        
+         
+      </div>
+      <i class="fa-solid fa-cart-shopping"></i>
+      <a href="">CART</a>
+    </nav>
+    <nav id="nav2">
+      <div class="logo">
+        <div class="logo_image"></div>
+      </div>
+      <div id="data">
+        <ul>
+          <li><a href="index.html">MAIN</li></a>
+          <li><a href="women.html">WOMEN</li></a>
+          <li><a href="winterwear.html">WINTERWEAR</li></a>
+          <li><a href="oversized.html">OVERSIZED</li></a>
+          <li><a href="contact.html">CONTACT US</li></a>
+        </ul>
+        <div id="search">
+          <div class="search_icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <input type="text" placeholder="search appreals" />
+        </div>
+      </div>
+    </nav>
+  </header>
+  <hr />
+
+  <footer>
+    <div class="copyright">
+      © 2024-2025, rulzzz.com, Inc. or its affiliates
+    </div>
+  </footer>
+    
+  </body>
